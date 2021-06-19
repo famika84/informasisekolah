@@ -1,0 +1,66 @@
+/*tophead*/
+.tophead {
+  background-color: #49688e;
+}
+
+.ul-tophead {
+  list-style: none;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.li-tophead {
+  display: inline;
+  margin-left: 15px;
+}
+
+#btn {
+  margin-left: 350px;
+}
+
+/*navbar*/
+.navbar {
+  background-color: #294a70;
+  padding-bottom: 15px;
+  padding-color: #f4a024; /*<<<<<<<<<---ini belum bisa, mungkin salah property nya*/
+}
+
+.nav-link {
+  color: white;
+  
+}
+
+/*Marquee*/
+#marquee {
+  background-color: lightgray;
+}
+
+/*Top footer*/
+#top-footer {
+  background-color: #49688e;
+  color: white;
+  padding-top: 15px;
+  border-top: 10px;
+  margin-top: 10px;
+}
+
+/*footer*/
+.footer {
+  background-color: #294a70;
+}
+
+.ul-footer {
+  list-style: none;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.ul-footer li {
+  color: white;
+  display: inline;
+  text-align: center;
+  padding: 0px;
+}
