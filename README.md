@@ -6,7 +6,7 @@
  Kelas 12.2B.25
  Matakuliah Web Programming I
  Project dengan tema Web Infromasi Sekolah
- Kelompok 4:
+ Kelompok 1:
  1. Abdul Wachid_12200841
  2. Yuli Saputra_12200344
  3. Ibnu Abdul Azis_12200167
