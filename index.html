@@ -14,7 +14,7 @@
   <body>
     <!--tophead-->
     <section class="tophead">
-      <div class="container">
+      <div class="container-sm">
         <ul class="ul-tophead">
           <li class="li-tophead">
             <a href="tel:021555678" style="text-decoration: none; color: inherit">021-555678</a>
@@ -51,7 +51,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-1">
-            <img src="image/logo.png" alt="logo" />
+            <img src="image/logo.png" class="rounded mx-auto" alt="logo" />
           </div>
           <div class="col-md-7">
             <h1>SMK Negeri 1 Nilasari</h1>
@@ -68,7 +68,91 @@
     </header>
     <!--Akhir Head-->
 
+    <!--Marquee-->
+    <section class="Marquee">
+      <div class="container" id="marquee">
+        <marquee behavior="left" direction="" onmouseover="this.stop()" onmouseout="this.start()">Selamat Datang di Web SMK Negeri 1 Nilasari</marquee>
+      </div>
+    </section>
+    <!--Akhir Marquee-->
+
     <!--Navbar-->
+    <nav class="navbar">
+      <div class="container-sm justify-content-center">
+        <ul class="nav nav-pills" id="nav-pills">
+          <li class="nav-item">
+            <a class="nav-link bg-warning" aria-current="page" href="#">Beranda</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Profil</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Program Sekolah</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Program Keahlian</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Sarana Prasarana</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Galeri</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Foto</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Video</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontak</a>
+          </li>
+          <li></li>
+            <form class="d-flex px-4">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn outline-dark bg-warning" type="submit" id="search">Search</button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <ul class="nav nav-tabs justify-content-center">
@@ -141,15 +225,8 @@
         </ul>
       </div>
     </nav>
+    -->
     <!--Akhir Navbar-->
-
-    <!--Marquee-->
-    <section class="Marquee bg-primary">
-      <div class="container" id="marquee">
-        <marquee behavior="left" direction="" onmouseover="this.stop()" onmouseout="this.start()">Selamat Datang di Web SMK Negeri 1 Nilasari</marquee>
-      </div>
-    </section>
-    <!--Akhir Marquee-->
 
     <!--Slide-->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">

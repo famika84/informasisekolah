@@ -21,17 +21,21 @@
 }
 
 /*navbar*/
+
 .navbar {
-  background-color: #294a70;
-  padding-bottom: 15px;
-  padding-color: #f4a024; /*<<<<<<<<<---ini belum bisa, mungkin salah property nya*/
+  background-color: #49688e;
+  padding-bottom: 10px;
+  
 }
 
 .nav-link {
   color: white;
+  font-family: Verdana;
 }
 
-/*Marquee*/
+.dropdown-item {
+  font-family: Verdana;
+}
 
 /*Top footer*/
 #top-footer {
