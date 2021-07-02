@@ -1,4 +1,8 @@
 /*tophead*/
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
 .tophead {
   background-color: #49688e;
 }
@@ -51,18 +55,23 @@
 }
 
 /*Konten*/
+#kontenpertama {
+  padding-top: 40px;
+  background-color: #f3f3f3;
+}
 .card-body {
-  background-color:thistle;
-  padding-bottom:10px;
+  background-color: #f3f3f3;
+  padding-bottom: 5px;
+  border-top: 5px;
 }
 
 .card-title {
-  color:#49688e;
+  color: #49688e;
 }
 
 .card-link {
   text-decoration: none;
-  color:#49688e;
+  color: #49688e;
 }
 
 /*Top footer*/
