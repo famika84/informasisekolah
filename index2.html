@@ -14,7 +14,7 @@
   <body>
     <!--tophead-->
     <section class="tophead">
-      <div class="container">
+      <div class="container-sm">
         <ul class="ul-tophead">
           <li class="li-tophead">
             <a href="tel:021555678" style="text-decoration: none; color: inherit">021-555678</a>
@@ -33,11 +33,9 @@
                 <span class="visually-hidden">Toggle Dropdown</span>
               </button>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="https://smk.kemdikbud.go.id/">DitPSMK-Kementrian Pendidikan dan Kebudayaan</a></li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Separated link</a></li>
+                <li><a class="dropdown-item" href="#">PPDB SMKN 1 Nilasari</a></li>
               </ul>
             </div>
           </li>
@@ -48,17 +46,17 @@
 
     <!--Head-->
     <header>
-      <div class="container">
+      <div class="container overflow-auto">
         <div class="row">
-          <div class="col-md-1">
-            <img src="image/logo.png" alt="logo" />
+          <div class="col-sm-1">
+            <img src="image/logo.png" class="rounded mx-auto" alt="logo" />
           </div>
-          <div class="col-md-7">
-            <h1>SMK Negeri 1 Nilasari</h1>
+          <div class="col-sm-7">
+            <h1>SMK NEGERI 1 NILASARI</h1>
             <p>SMK UNGGULAN YANG MENGHASILKAN SDM BERMUTU DAN BERDAYA SAING TINGGI</p>
           </div>
-          <div class="col-md-4">
-            <form class="d-flex">
+          <div class="col-sm-4">
+            <form class="d-flex pt-4">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
               <button class="btn btn-outline-success" type="submit" id="search">Search</button>
             </form>
@@ -68,89 +66,155 @@
     </header>
     <!--Akhir Head-->
 
+    <!--Marquee-->
+    <section class="Marquee">
+      <div class="container" id="marquee">
+        <marquee behavior="left" direction="" onmouseover="this.stop()" onmouseout="this.start()">Selamat Datang di Web SMK Negeri 1 Nilasari</marquee>
+      </div>
+    </section>
+    <!--Akhir Marquee-->
+
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
-        <ul class="nav nav-tabs justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+    <nav class="navbar">
+      <div class="container-sm justify-content-center">
+        <ul class="nav" id="nav-pills">
+          <li class="nav-item" style="border-left-width: 2px; border-left-style: solid; border-left-color: white">
+            <a class="nav-link bg-warning" aria-current="page" href="index.html">Beranda</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Profil</a>
+            <a class="nav-link dropdown-toggle btn-outline-warning" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Profil</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="index2.html">Sejarah Singkat</a></li>
               <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="index3.html">Sejarah Pengembangan</a></li>
+              <li><a class="dropdown-item" href="index3.html">Visi dan Misi</a></li>
               <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="index4.html">Visi dan Misi</a></li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Profil Kelompok Empat</a></li>
+              <li><a class="dropdown-item" href="index4.html">Profil Kelompok</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Program Sekolah</a>
+            <a class="nav-link dropdown-toggle btn-outline-warning" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Program Sekolah</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Program Kerja</a></li>
+              <li><a class="dropdown-item" href="index5.html">Program Kerja</a></li>
               <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Hubungan Industri</a></li>
+              <li><a class="dropdown-item" href="index6.html">Teaching Factory dan Program Inovasi</a></li>
               <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Teaching Factory dan Program Inovasi</a></li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Program Pengembangan Sekolah</a></li>
+              <li><a class="dropdown-item" href="index7.html">Program Pengembangan Sekolah</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Program Keahlian</a>
+            <a class="nav-link dropdown-toggle btn-outline-warning" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Program Keahlian</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">TEKNIK ELEKTRONIKA INDUSTRI</a></li>
+              <li><a class="dropdown-item" href="index8.html">Teknik Eletronika Industri</a></li>
               <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">TEKNIK OTOMASI INDUSTRI</a></li>
+              <li><a class="dropdown-item" href="index9.html">Teknik Otomasi Industri</a></li>
               <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">SISTEM INFORMASI JARINGAN DAN APLIKASI</a></li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">REKAYASA PERANGKAT LUNAK</a></li>
+              <li><a class="dropdown-item" href="index10.html">Rekayasa Perangkat Lunak</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Sarana Prasarana</a>
+            <a class="nav-link dropdown-toggle btn-outline-warning" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Sarana Prasarana</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Sarana Infrastruktur</a></li>
+              <li><a class="dropdown-item" href="index11.html">Sarana Infrastruktur</a></li>
               <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Sarana Pembelajaran</a></li>
+              <li><a class="dropdown-item" href="index12.html">Sarana Pembelajaran</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Kegiatan Sekolah</a>
+            <a class="nav-link dropdown-toggle btn-outline-warning" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Galeri</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Ekstrakulikuler</a></li>
+              <li><a class="dropdown-item" href="index13.html">Foto</a></li>
               <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Laporan Kegiatan Sekolah</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Galeri</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Foto</a></li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Video</a></li>
+              <li><a class="dropdown-item" href="index14.html">Video</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index21.html" tabindex="-1" aria-disabled="true">Kontak</a>
+            <a class="nav-link btn-outline-warning" href="index15.html">Kontak</a>
           </li>
         </ul>
       </div>
     </nav>
-    <!--Akhir Navbar-->
+    <!--akhir navbar-->
 
-    <!--breadcrumb-->
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Sejarah Singkat</li>
-      </ol>
-    </nav>
-    <!--Akhir breadcrumb-->
+    <!--Breadcrumb-->
+    <div class="section" style="background-color: #f3f3f3; padding-top: 10px; padding-bottom: 10px; font-size: larger">
+      <div class="container">
+        <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Sejarah Singkat</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!--Akhir Breadcrumb-->
+
+    <!--Sejarah Singkat-->
+    <div class="section">
+      <div class="container">
+        <br />
+        <br />
+        <h3>Sejarah Singkat</h3>
+        <br />
+        <p>
+          SMK Negeri 1 Nilasari (STM Pembangunan Tangerang) merupakan salah satu Lembaga Pendidikan Menengah Kejuruan di Kota Tangerang, Jawa Barat yang menyelenggarakan Program Pendidikan Kejuruan 4 Tahun, dan merupakan salah satu SMK dari 8
+          (delapan) SMK Negeri di Indonesia yang memiliki program 4 (empat) Tahun, yang pembangunan fisiknya dimulai sejak tahun 1969, di atas tanah seluas 3,4 Ha, dan telah menerima siswa sejak tahun 1974 dengan nama STM Negeri Pembangunan
+          Tangerang, yang diresmikan pada tanggal 24 Maret 1977.
+        </p>
+
+        <p>
+          Perkembangan SMK Negeri 1 Nilasari dari sejak berdiri sampai dengan tahun 1995/1996 bernama STM Pembangunan Tangerang, sedangkan nama SMK Negeri 1 Nilasari - Tangerang berlaku sejak tahun pelajaran 1996/1997 dengan berdasarkan SK
+          Mendikbud No. 036/O/97.
+        </p>
+
+        <p>
+          Sejalan dengan otonomi daerah, dengan berpisahnya Kota Tangerang dengan Kab. Tangerang, maka pada tahun pelajaran 2001/2002 STM Pembangunan Tangerang yang setelahnya bernama SMK Negeri 1 Nilasari – Tangerang berubah nama menjadi SMK Negeri 1
+          Kota Tangerang.
+        </p>
+
+        <p>
+          Secara geografis SMK Negeri 1 Nilasari terletak di kawasan Industri, yang dapat dijangkau dari berbagai sudut kota Tangerang, baik dari atau ke Kota Tangerang, Kabupaten Tangerang dan Jakarta dengan mudah, serta dapat dengan mudah diakses
+          oleh industri-industri yang berada di kawasan industri di Jalur Pantura Provinsi Jawa Barat. Sehingga akses yang dapat dilakukan untuk kepentingan akademik baik pembelajaran di sekolah maupun di luar sekolah (Dunia Usaha / Dunia
+          Industri ) dapat dilakukan dengan baik.
+        </p>
+
+        <h5>Potensi Unggulan</h5>
+
+        <p>Potensi unggulan yang ada di SMK Negeri 1 Nilasari diantaranya adalah</p>
+
+        <ol style="text-align: justify;">
+          <li>
+            <b>Siswa</b> : Nilai masuk siswa yang cukup tinggi merupakan potensi yang lebih mudah dalam mengembangan karena kemampuan yang dimiliki siswa dapat dengan mudah digunakan dalam penyerapan pengetahuan dan keterampilan yang harus
+            mereka terima di sekolah.
+          </li>
+          <li>
+            <b>Program Keahlian</b> : Program Keahlian yang ada di SMK Negeri 1 Nilasari ini hampir semuanya merupakan satu-satunya program keahlian yang ada di Indonesia, kecuali untuk program ICT ada untuk yang 3 tahun tapi untuk yang 4
+            tahun di sekolah ini merupakan satu-satunya. Semua program keahlian perintisnya dari SMK Negeri 1 Nilasari. Hal ini merupakan suatu potensi unggulan karena dengan mudah siswa yang lulus terserap oleh industri hal ini telah
+            berlangsung sejak berdirinya STM Pembangunan Tangerang yang sekarang menjadi SMK Negeri 1 Nilasari.
+          </li>
+          <li>
+            <b>Kegiatan Pelatihan</b> : Adanya berbagai kegiatan pelatihan dari luar yang sering dilakukan di sekolah ini memudahkan sekolah berhubungan dengan dunia usaha dan dunia industri juga dalam mengadopsi kemajuan teknologi yang
+            saat ini berkembang dengan pesat.
+          </li>
+          <li>
+            <b>English Testing Centre</b> : Sebagai pusat pelaksanaan Test TOEIC (Test Of English for International Communication) SMK Negeri 1 Nilasari merupakan pusat dalam kegiatan pembelajaran Bahasa Inggris untuk daerah Bandung dan
+            Tangerang.
+          </li>
+          <li><b>Kegiatan Ekstra Kurikuler</b> : Berbagai jenis kegiatan ekstra kurikuler yang dilaksanakan disekolah ini telah menghasilkan beberapa prestasi baik ditingkat regional maupun di Tingkat nasional.</li>
+          <li>
+            <b>Sertifikasi</b> : Adanya program sertifikasi untuk Teknik Informatika (Diploma 1 Teknik Komputer Jaringan) kerjasama dengan SEAMOLEC-ITB dan Diploma 1 Teknik Mekatronika kerjasama dengan POLMAN TANGERANG (Program Seamless
+            Education – Pendidikan Vokasi Berkelanjutan) juga merupakan suatu unggulan bagi SMKN 1 Nilasari.
+          </li>
+        </ol>
+
+        <br /><br />
+        <hr />
+        <!--garis horizontal-->
+        <br />
+      </div>
+    </div>
+
+    <!--Akhir Sejarah Singkat-->
+    
 
     <!--Top footer-->
     <section id="top-footer">
@@ -169,7 +233,7 @@
               <div class="col-md"><img src="ikon/twitter.png" alt="twitter" /></div>
               <div class="col-md"><img src="ikon/youtube.png" alt="youtube" /></div>
             </div>
-            <div class="row">
+            <div class="row" style="padding: 20px">
               <div class="col-md">Ayo Follow dan Ikuti informasi seputar kegiatan di SMK Negeri 1 Nilasari di social media kami.</div>
             </div>
           </div>
@@ -206,12 +270,12 @@
           <li>I</li>
           <li class="li-footer">Kontak Kami</li>
         </ul>
-        <p id="footer" style="text-align: center; color: white">All Rights Reserved © TIM ICT 2021. SMKN 1 Nilasari</p>
+        <p id="footer" style="text-align: center; color: white">Abdul Wachid - Nila Nurmala - Yuli Saputra - Ibnu Abdul Azis</p>
         <ul class="ul-footer">
           <li class="li-footer">Proudly powered by Bootstrap</li>
           <li class="li-footer">I</li>
-          <li class="li-footer">Created with Love by</li>
-          <li class="li-footer">Kelompok Satu</li>
+          <li class="li-footer">Created with Love by Kelompok Satu</li>
+          <li class="li-footer"></li>
         </ul>
       </div>
     </footer>
